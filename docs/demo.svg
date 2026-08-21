@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="392" viewBox="0 0 760 392" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="14">
+  <!-- terminal window -->
+  <rect x="0" y="0" width="760" height="392" rx="10" fill="#101018"/>
+  <rect x="0.5" y="0.5" width="759" height="391" rx="9.5" fill="none" stroke="#2a2a3d"/>
+  <rect x="0" y="0" width="760" height="34" rx="10" fill="#1b1c2b"/>
+  <rect x="0" y="24" width="760" height="10" fill="#1b1c2b"/>
+  <circle cx="20" cy="17" r="6" fill="#ff5f57"/>
+  <circle cx="40" cy="17" r="6" fill="#febc2e"/>
+  <circle cx="60" cy="17" r="6" fill="#28c840"/>
+  <text x="380" y="22" fill="#8b8db0" text-anchor="middle" font-size="12">teeqo@confessor — confchat</text>
+
+  <!-- title bar -->
+  <rect x="10" y="44" width="740" height="22" fill="#0f7fa8"/>
+  <text x="18" y="60" fill="#071318" font-weight="bold"> confchat v0.2.0 &#x2502; room: lobby &#x2502; nick: teeqo &#x2502; online: alice, bob, teeqo</text>
+
+  <!-- body -->
+  <text x="18" y="96" fill="#565f89"> &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500; Friday, Aug 21 2026 &#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</text>
+
+  <!-- alice message -->
+  <text x="18" y="122"><tspan fill="#8b8db0">09:14 </tspan><tspan fill="#0d1f16" font-weight="bold"> alice</tspan><tspan fill="#c0caf5">: has anyone tried the new build?</tspan></text>
+
+  <!-- alice action -->
+  <text x="18" y="148"><tspan fill="#8b8db0">09:14 </tspan><tspan fill="#c0caf5" font-style="italic">* alice is shipping it</tspan></text>
+
+  <!-- reply quote + bob reply -->
+  <text x="18" y="174" fill="#565f89">   &gt; alice: has anyone tried the new build?</text>
+  <text x="18" y="200"><tspan fill="#8b8db0">09:15 </tspan><tspan fill="#241d07" font-weight="bold"> bob</tspan><tspan fill="#c0caf5">: yes &#x2014; runs great here</tspan></text>
+
+  <!-- reaction -->
+  <text x="18" y="226" fill="#9aa5ce">   &#x1F44D; alice/bob</text>
+
+  <!-- mention (underlined) -->
+  <text x="18" y="252"><tspan fill="#8b8db0">09:16 </tspan><tspan fill="#0d1f16" font-weight="bold"> alice</tspan><tspan fill="#c0caf5" text-decoration="underline">: teeqo shall we cut a release?</tspan></text>
+
+  <!-- join note -->
+  <text x="18" y="278" fill="#565f89">   &#x00B7; carol joined</text>
+
+  <!-- teeqo message -->
+  <text x="18" y="304"><tspan fill="#8b8db0">09:17 </tspan><tspan fill="#0e2030" font-weight="bold"> teeqo</tspan><tspan fill="#c0caf5">: cutting v0.2.0 now</tspan></text>
+
+  <!-- footer -->
+  <rect x="10" y="322" width="740" height="20" fill="none"/>
+  <text x="18" y="336" fill="#3fb6d8"> Enter send &#x2502; Up/Down history &#x2502; PgUp/PgDn scroll &#x2502; /help commands</text>
+  <text x="742" y="336" fill="#e8b339" text-anchor="end" font-weight="bold"> carol typing... </text>
+
+  <!-- input line -->
+  <text x="18" y="366" fill="#c0caf5" font-weight="bold">&gt; </text>
+  <text x="34" y="366" fill="#c0caf5">tagging v0.2.0</text>
+  <rect x="126" y="354" width="8" height="16" fill="#c0caf5">
+    <animate attributeName="fill" values="#c0caf5;#c0caf5;transparent;transparent" keyTimes="0;0.5;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
