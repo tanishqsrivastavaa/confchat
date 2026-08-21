@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "confchat"
+version = "0.2.0"
+description = "Realtime TUI chat for users on the same machine."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+confchat = "confchat.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["confchat"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
